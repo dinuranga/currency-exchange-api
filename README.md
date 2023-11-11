@@ -1,4 +1,4 @@
-# currency-exchange-api
+# Currency Exchange API
 Currency Exchange API Provides Realtime Currency Data.
 
 ## This project uses the following endpoint:
