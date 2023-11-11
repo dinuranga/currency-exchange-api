@@ -56,7 +56,7 @@ const checkCache = async (req, res, next) => {
       }
 
       // Cache for 1 hour (60 minutes * 60 seconds * 1000 milliseconds)
-      cacheExpirationTime = Date.now() + 60 * 60 * 1000;
+      cacheExpirationTime = Date.now() + 6*60 * 60 * 1000;
     }
     next();
   } catch (error) {
